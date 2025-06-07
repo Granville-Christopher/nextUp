@@ -563,7 +563,8 @@ const PricingCard = ({ plan, price, description, features, isFeatured = false })
           : 'bg-blue-600 text-white hover:bg-blue-700'
         }
       `}>
-        Get Started
+        {/* Choose Plan */}
+        <span className="">Choose {plan}</span>
         <ArrowRightIcon className="w-4 h-4 ml-2" />
       </button>
     </div>
@@ -574,36 +575,43 @@ export function PricingSection() {
   const pricingPlans = [
     {
       plan: 'Basic Plan',
-      price: 10,
-      description: 'Manage essential tasks effectively while enhancing your productivity with basic functionality.',
+      price: 15,
+      description: 'Ideal for individuals and small teams beginning their journey towards enhanced productivity.',
       features: [
-        'Task creation and management',
-        'Basic categorization',
-        'Simple reminder setup'
+        'All Core Task Management Tools',
+        'Unlimited Projects & Tasks',
+        'Basic Analytics & Reporting',
+        'Standard Email Support',
+        'Secure Cloud Storage (10GB)'
       ],
       isFeatured: false,
     },
     {
-      plan: 'Pro Plan',
+      plan: 'Professional',
       price: 29,
-      description: 'Advanced features for teams and professionals to optimize workflow and collaboration.',
+      description: 'Designed for growing teams needing advanced collaboration and insightful performance metrics.',
       features: [
-        'Priority task management',
-        'Enhanced analytics dashboard',
-        'Customizable categories',
-        'Team collaboration features'
+        'Basic Plan',
+        'Advanced Team Collaboration',
+        'Customizable Workflows',
+        'Priority Chat & Email Support',
+        'Enhanced Security Features',
+        'Dedicated Account Manager'
       ],
       isFeatured: true,
     },
     {
-      plan: 'Enterprise Plan',
-      price: 99,
-      description: 'Tailored solutions for large teams and organizations with advanced features and dedicated support.',
+      plan: 'Enterprise',
+      price: 70,
+      description: 'Comprehensive solutions for large organizations requiring tailored support and robust features.',
       features: [
-        'Unlimited user licenses',
-        'Advanced goal-setting tools',
-        'Dedicated account manager',
-        'Premium support options'
+        'Professional Features',
+        'Unlimited User Licenses',
+        'Single Sign-On (SSO)',
+        '24/7 Premium Phone Support',
+        'On-Premise Deployment Options',
+        'Custom Integrations & APIs',
+        'Dedicated Technical Consultant'
       ],
       isFeatured: false,
     },

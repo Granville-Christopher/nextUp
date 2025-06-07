@@ -131,19 +131,19 @@ function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
             {checkmarkIcon}
-            <span className="text-xl font-bold text-gray-900">nextUp</span>
+            <span className="text-xl font-bold text-gray-900"><Link to="/">nextUp</Link></span>
           </div>
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
-              to="#"
+              to="Dashboard"
               className="text-gray-700 hover:text-blue-600 text-lg font-medium transition-colors duration-200"
             >
               Features
             </Link>
             <Link
-              to="#"
+              to="Pricing"
               className="text-gray-700 hover:text-blue-600 text-lg font-medium transition-colors duration-200"
             >
               Pricing

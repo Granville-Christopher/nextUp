@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Navbar from "./componentshmpg/navbar";
+// import Navbar from "./components/navbar";
 import { BrowserRouter } from 'react-router-dom';
-import Footer from './componentshmpg/footer';
+// import Footer from './components/footer';
 
 // index.js
 if ("serviceWorker" in navigator) {
@@ -21,9 +21,9 @@ if ("serviceWorker" in navigator) {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Navbar />
+    {/* <Navbar /> */}
     <App />
-    <Footer />
+    {/* <Footer /> */}
   </BrowserRouter>
 );
 
