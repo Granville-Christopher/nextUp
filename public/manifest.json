@@ -5,17 +5,17 @@
   "lang": "en-US",
   "icons": [
     {
-      "src": "nextuplogo.png",
+      "src": "nextup.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "nextuplogo.png",
+      "src": "nextup.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "nextuplogo.png",
+      "src": "nextup.png",
       "type": "image/png",
       "sizes": "512x512"
     }
